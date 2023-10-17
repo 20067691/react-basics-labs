@@ -38,6 +38,7 @@ const AddTaskForm = (props) => {
           <TextField
             required
             name="priority"
+            id="select-priority"
             label="Priority"
             select
             onChange={(event) => props.change(event)}
